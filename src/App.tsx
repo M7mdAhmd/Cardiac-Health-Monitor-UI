@@ -39,7 +39,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await axios.post('https://web-production-900a9.up.railway.app/predict', formData);
+      const response = await axios.post('https://web-production-553d.up.railway.app/predict', formData);
       setPrediction(response.data);
 
       if (window.innerWidth < 1024) {
